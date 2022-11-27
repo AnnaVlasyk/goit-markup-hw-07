@@ -56,7 +56,7 @@
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
         &:hover,
-        :focus {
+        &:focus {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             background-color: #188CE8;
         }
@@ -72,7 +72,8 @@
     font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover, :focus {
+    &:hover, 
+    &:focus {
         color: var(--logo-text-color);
     }
 }
@@ -99,10 +100,14 @@
      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
      &:hover,
-     :focus {
+     &:focus {
          color: var(--logo-text-color);
      }
  }
+
+.maps { 
+    color: var(--primary-white-color);
+}
 
 .social-basement {
     display: inline-block;

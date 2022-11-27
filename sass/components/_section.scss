@@ -22,14 +22,19 @@
         justify-content: center;
     }
 
+}
+
+.box-text {
+   
     &__title {
         color: var(--title-text-color);
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
     }
-
+    
     &__text {
         margin-top: 10px;
         color: var(--paragraph-text-color);
@@ -38,7 +43,8 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
     }
-
 }
+
+
 
 
